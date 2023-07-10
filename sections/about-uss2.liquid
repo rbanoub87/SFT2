@@ -1,0 +1,87 @@
+  <style>
+       body{
+           margin: 0px;
+       }
+       section.about-us-section {
+           text-align: center;
+        }
+       section.about-us-section p {
+           max-width: 1200px;
+           margin: 0px auto 30px;
+           text-align: center;
+}
+    .about-us-section img{
+    
+    margin-bottom:30px;
+    }
+    div.container {
+    margin: 0 auto;
+    padding: 0px;
+}
+    </style>
+
+<section class="about-us-section">
+<!--     <h2 style="text-align: center;">{{section.settings.title}}</h2>
+    <hr> -->
+    <h5>{{section.settings.title2}}</h5>
+  <p>{{section.settings.descrip1}}</p>
+   <p>{{section.settings.descrip2}}</p>
+  
+  <p>{{section.settings.descrip3}}</p>
+   <p>{{section.settings.descrip4}}</p>
+  <img src="{{section.settings.img | img_url:'master'}}" alt="Image">
+</section>
+{% schema %}
+  {
+    "name": "About text",
+    "settings": [
+{
+      "type": "text",
+      "id": "title",
+      "label": "Heading"
+    },
+{
+      "type": "text",
+      "id": "title2",
+      "label": "Title"
+    },
+{
+      "type": "textarea",
+      "id": "descrip1",
+      "label": "Description"
+    },
+{
+      "type": "textarea",
+      "id": "descrip2",
+      "label": "Description"
+    },
+
+{
+      "type": "image_picker",
+      "id": "img",
+      "label": "Image"
+    },
+
+
+{
+      "type": "textarea",
+      "id": "descrip3",
+      "label": "Description"
+    },
+{
+      "type": "textarea",
+      "id": "descrip4",
+      "label": "Description"
+    }
+
+
+
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

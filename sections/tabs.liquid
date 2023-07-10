@@ -1,0 +1,146 @@
+
+<section
+  class="
+    section
+      is-width-wide
+      has-no-side-gutter
+  "
+>
+{% capture product_tabs %}
+              {% assign tab_counter = 1 %}
+
+              <div class="product-tabs">
+                {% if section.settings.show_product_description %}
+                  <input
+                    class="product-tabs__radio"
+                    id="product-tabs__radio-{{ section.id }}"
+                    name="{{ section.id }}"
+                    tabindex="0"
+                    type="radio"
+                    checked="checked"
+                  >
+
+                  <label class="product-tabs__label" for="product-tabs__radio-{{ section.id }}">
+                    {{ 'products.onboarding.tab_title'| t }}
+                  </label>
+
+                  <div class="product-tabs__panel" tabindex="0">
+                    {% if onboarding %}
+                      {{ 'products.onboarding.tab_content'| t }}
+                    {% else %}
+                      {% if product.description != blank %}
+                        <div class="rte">
+                           {% if product.description contains "<!-- split -->" %}
+{%  assign productDescription = product.description | split: '<!-- split -->' %}
+{{ productDescription[1] }}
+                             {% else %}
+                             {{ product.description }}
+{% endif %}
+                          
+                        </div>
+                      {% else %}
+                        {{ 'products.onboarding.tab_content'| t }}
+                      {% endif %}
+                    {% endif %}
+                  </div>
+                {% endif %}
+
+                {% for block in section.blocks %}
+                  {% assign tab_heading_value = block.settings.tab_heading_value %}
+                  {% assign tab_text_value = block.settings.tab_text_value %}
+                  {% assign tab_text_value_custom = block.settings.tab_text_value_custom %}
+                 
+                  
+
+                  {% if tab_heading_value != blank %}
+                    <input
+                      class="product-tabs__radio"
+                      id="product-tabs__radio-{{ block.id }}"
+                      name="{{ section.id }}"
+                      tabindex="0"
+                      type="radio"
+                      {% if tab_counter == 1 and block.settings.show_product_description == false %}
+                        checked
+                      {% endif %}
+                    >
+
+                    <label class="product-tabs__label" for="product-tabs__radio-{{ block.id }}">
+                      {{ tab_heading_value | escape }}
+                    </label>
+{% if tab_text_value != blank %}
+                    <div class="product-tabs__panel" tabindex="0">
+                      {{ tab_text_value }}
+                    </div>
+  {% endif %}
+{% if tab_text_value_custom != blank %}
+                <div class="product-tabs__panel" tabindex="0">
+        {{ tab_text_value_custom }}
+                    </div>
+{% endif %}
+                    {% assign tab_counter = tab_counter | plus: 1 %}
+                  {% endif %}
+                {% endfor %}
+              </div>
+            {% endcapture %}
+
+{{ product_tabs }}
+</section>
+
+{% schema %}
+{
+  "name": "Tabs",
+  "class": "shopify-section--tabs",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_product_description",
+      "label": "Show Description",
+      "default": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "tab",
+      "name": "Tab",
+      "settings": [
+        {
+          "type": "text",
+          "id": "tab_heading_value",
+          "label": "Heading",
+          "default": "Tab Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "tab_text_value",
+          "label": "Tab Body",
+          "default": "<p>Include some of your favorite customer quotes and feedback here as social proof, to build credibility and trust for your services and products.</p>"
+        },
+        {
+          "type": "liquid",
+          "id": "tab_text_value_custom",
+          "label": "Custom Liquid"
+          
+        }
+          ]
+        }
+          ],
+        
+  "presets": [
+    {
+      "name": "Tabs",
+      "category": "Text",
+      "blocks": [
+        {
+          "type": "tab"
+        },
+        {
+          "type": "tab"
+        },
+        {
+          "type": "tab"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
