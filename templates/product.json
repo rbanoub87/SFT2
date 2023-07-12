@@ -36,13 +36,19 @@
           "type": "form",
           "settings": {
           }
+        },
+        "6b5a89e9-6e99-4736-bde2-039637442f2c": {
+          "type": "trust-banner",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "title",
         "loox-rating",
         "price",
-        "form"
+        "form",
+        "6b5a89e9-6e99-4736-bde2-039637442f2c"
       ],
       "custom_css": [
 
@@ -131,6 +137,7 @@
           "settings": {
             "only_photos": false,
             "aggregated": false,
+            "limit": 20,
             "hide_thumbnails": false,
             "maxwidth": 1080
           }
