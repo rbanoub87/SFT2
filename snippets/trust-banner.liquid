@@ -27,36 +27,9 @@ font-weight:600;
 
 <div class="trust-banner">
 <div class="trust-icon">
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 161 83">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: none;
-        stroke: #db441a;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        stroke-width: 5px;
-      }
-    </style>
-  </defs>
-  <g id="Body">
-    <g>
-      <circle class="cls-1" cx="56.76" cy="70.33" r="10.17"/>
-      <polyline class="cls-1" points="33.02 9.28 33.02 2.5 111.02 2.5 111.02 70.33 66.93 70.33"/>
-      <polyline class="cls-1" points="46.59 70.33 33.02 70.33 33.02 56.76"/>
-      <line class="cls-1" x1="2.5" y1="19.46" x2="39.8" y2="19.46"/>
-      <line class="cls-1" x1="22.85" y1="33.02" x2="53.37" y2="33.02"/>
-      <line class="cls-1" x1="9.28" y1="46.59" x2="43.2" y2="46.59"/>
-      <circle class="cls-1" cx="134.76" cy="70.33" r="10.17"/>
-      <line class="cls-1" x1="111.02" y1="70.33" x2="124.59" y2="70.33"/>
-      <path class="cls-1" d="m111.02,19.46h15.61c4.85,0,7.5,1.17,10.21,5.21l9.65,15.22s6.45,6.44,8.62,8.82c3.07,3.31,3.39,8.05,3.39,11.45v10.17h-13.57"/>
-      <polyline class="cls-1" points="120.77 33.87 123.69 41.93 137.34 43.9"/>
-    </g>
-  </g>
-</svg>
+<img src="{{ block.settings.icon_one | img_url: '300x' }}" />
 <span class="trust-title">
-Free Shipping
+{{ block.settings.icon_one_tile }}
 </span>
 </div>   
 
