@@ -552,19 +552,25 @@
 
 <div class="trust-banner">
 <div class="trust-icon">
+            {% if block.settings.icon_one %}
 <img src="{{ block.settings.icon_one | img_url: '300x' }}" />
+              {% endif %}
 <span class="trust-title">
 {{ block.settings.icon_one_title }}
 </span>
 </div> 
   <div class="trust-icon">
+            {% if block.settings.icon_two %}
 <img src="{{ block.settings.icon_two | img_url: '300x' }}" />
+              {% endif %}
 <span class="trust-title">
 {{ block.settings.icon_two_title }}
 </span>
 </div>   
   <div class="trust-icon">
+            {% if block.settings.icon_three %}
 <img src="{{ block.settings.icon_three | img_url: '300x' }}" />
+              {% endif %}
 <span class="trust-title">
 {{ block.settings.icon_three_title }}
 </span>
