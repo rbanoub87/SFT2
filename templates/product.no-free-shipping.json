@@ -1,0 +1,167 @@
+{
+  "sections": {
+    "sidebar": {
+      "type": "product-sidebar",
+      "settings": {
+        "toggle": false
+      }
+    },
+    "main": {
+      "type": "product-template",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "loox-rating": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "display_savings": true
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+          }
+        },
+        "6b5a89e9-6e99-4736-bde2-039637442f2c": {
+          "type": "trust-banner",
+          "settings": {
+            "icon_one": "shopify:\/\/shop_images\/shipping_2x_8fbee2c7-1652-4bb5-b1fd-4bc67d3b2170.png",
+            "icon_one_title": "FREE SHIPPING",
+            "icon_two": "shopify:\/\/shop_images\/returns_2x_19636b64-524b-466f-8bd2-5f68cea8ba88.png",
+            "icon_two_title": "EASY RETURNS",
+            "icon_three": "shopify:\/\/shop_images\/receiving_money_2_2x_ad9d427d-969b-43a1-8c2d-6b7eb5d3d165.png",
+            "icon_three_title": "MONEY BACK GUARANTEE"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "loox-rating",
+        "price",
+        "form",
+        "6b5a89e9-6e99-4736-bde2-039637442f2c"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "product_breadcrumb": true,
+        "media_position": "is-flex-row",
+        "set_product_height": true,
+        "product_height": 400,
+        "video_looping": false,
+        "product_thumbs": true,
+        "gallery_arrows": true,
+        "enable_product_lightbox": true,
+        "activate_zoom": true,
+        "slideshow_speed": 0,
+        "slideshow_animation": "fade",
+        "thumbnail_position": "bottom",
+        "enable_thumbnail_slider": true
+      }
+    },
+    "73a21db1-56d1-4b86-acd2-5fb2c05de7e2": {
+      "type": "divider",
+      "settings": {
+        "divider_spacing": 20,
+        "divider_border": false,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "0ab648f2-9662-48fd-ab5e-78064f04a0a9": {
+      "type": "tabs",
+      "blocks": {
+        "630ee29c-c8a3-4ed6-acfd-853ed5ee9f5b": {
+          "type": "tab",
+          "settings": {
+            "tab_heading_value": "{{ product.metafields.custom.extra_description_title.value }}",
+            "tab_text_value": "",
+            "tab_text_value_custom": "{%  assign productDescription = product.description | split: '<!-- split -->' %}\n<div class=\"description_top_section\">\n{% for variant in product.variants limit:1 %}\n<div class=\"description_image\">\n<img src=\"{{variant.featured_image | img_url: '500x'}}\" \/>\n<\/div>\n{% endfor %}\n<div class=\"description_top\">\n{{ productDescription[2] }}\n<\/div>\n<\/div>\n{{ productDescription[3] }}"
+          }
+        },
+        "20636831-9670-45ac-ba3f-50f6ab6588f1": {
+          "type": "tab",
+          "settings": {
+            "tab_heading_value": "{{ product.metafields.custom.extra_description_title_2.value }}",
+            "tab_text_value": "",
+            "tab_text_value_custom": "{%  assign productDescription = product.description | split: '<!-- split -->' %}\n<div class=\"description_top_section\">\n{% for variant in product.variants limit:1 offset: 1 %}\n<div class=\"description_image\">\n<img\nsrc=\"{{variant.featured_image | img_url: '500x'}}\" \/>\n<\/div>\n{% endfor %}\n<div class=\"description_top\">\n{{ productDescription[4] }}\n<\/div>\n<\/div>\n{{ productDescription[5] }}"
+          }
+        },
+        "43803ee0-dfb6-4857-ae56-6272705c37b3": {
+          "type": "tab",
+          "settings": {
+            "tab_heading_value": "Reviews",
+            "tab_text_value": "",
+            "tab_text_value_custom": "<div id=\"looxReviews\" data-product-id=\"{{product.id}}\" class=\"loox-reviews-default\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "630ee29c-c8a3-4ed6-acfd-853ed5ee9f5b",
+        "20636831-9670-45ac-ba3f-50f6ab6588f1",
+        "43803ee0-dfb6-4857-ae56-6272705c37b3"
+      ],
+      "custom_css": [
+        "tr:nth-child(odd) {background-color: white;}"
+      ],
+      "settings": {
+        "show_product_description": true
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "wide_display": false,
+        "product_recommendations_style": "slider",
+        "product_recommendations_heading": "You may also like...",
+        "products_per_row": 3,
+        "recommended_products_limit": 10
+      }
+    },
+    "loox-product-reviews-app-section": {
+      "type": "apps",
+      "blocks": {
+        "loox-product-reviews": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "loox-product-reviews"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "sidebar",
+    "main",
+    "73a21db1-56d1-4b86-acd2-5fb2c05de7e2",
+    "0ab648f2-9662-48fd-ab5e-78064f04a0a9",
+    "recommendations",
+    "loox-product-reviews-app-section"
+  ]
+}
