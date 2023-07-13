@@ -30,8 +30,10 @@
                     {% else %}
                       {% if product.description != blank %}
                         <div class="rte">
-                           {% if product.description != blank %}
-
+                           {% if product.description contains "<!-- split -->" %}
+{%  assign productDescription = product.description | split: '<!-- split -->' %}
+{{ productDescription[1] }}
+                             {% else %}
                              {{ product.description }}
 {% endif %}
                           

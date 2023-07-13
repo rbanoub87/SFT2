@@ -294,7 +294,7 @@
                         {% if block.settings.truncate_description %}
                           {{ product.description | truncatewords: block.settings.truncated_words }}
                         {% else %}
-                          {{ product.description }}
+                          {{ product.description | split: '<!-- split -->' | first }}
                         {% endif %}
                       </div>
                     {% endif %}
@@ -309,7 +309,7 @@
                   {% else %}
                     {% if product.description != blank %}
                       <div class="rte">
-                        {{ product.description  }}
+                        {{ product.description | split: '<!-- split -->' | first }}
                       </div>
                     {% endif %}
                   {% endif %}
@@ -442,7 +442,7 @@
                       {% else %}
                         {% if product.description != blank %}
                           <div class="rte">
-                            {{   }}
+                            {{ product.description | split: '<!-- split -->' | first }}
                           </div>
                         {% else %}
                           {{ 'products.onboarding.tab_content'| t }}
