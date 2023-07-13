@@ -442,7 +442,7 @@
                       {% else %}
                         {% if product.description != blank %}
                           <div class="rte">
-                            {{ product.description | split: '<!-- split -->' | first }}
+                            {{ product.description  }}
                           </div>
                         {% else %}
                           {{ 'products.onboarding.tab_content'| t }}
