@@ -92,7 +92,7 @@
           "settings": {
             "tab_heading_value": "{{ product.metafields.custom.extra_description_title.value }}",
             "tab_text_value": "",
-            "tab_text_value_custom": "{%  assign productDescription = product.description | split: '<!-- split -->' %}\n<div class=\"description_top_section\">\n{% for variant in product.variants limit:1 %}\n<div class=\"description_image\">\n<img src=\"{{variant.featured_image | img_url: '500x'}}\" \/>\n<\/div>\n{% endfor %}\n<div class=\"description_top\">\n{{ productDescription[2] }}\n<\/div>\n<\/div>\n{{ productDescription[3] }}"
+            "tab_text_value_custom": "{%  assign productDescription = product.description | split: '<!-- split -->' %}\n<div class=\"description_top_section\">\n{% for variant in product.variants limit:1 %}\n<div class=\"description_image\">\n<img src=\"{{variant.featured_image | img_url: '500x'}}\" \/>\n<\/div>\n{% endfor %}\n<div class=\"description_top\">\n{{ productDescription[1] }}\n<\/div>\n<\/div>"
           }
         },
         "20636831-9670-45ac-ba3f-50f6ab6588f1": {
@@ -100,7 +100,7 @@
           "settings": {
             "tab_heading_value": "{{ product.metafields.custom.extra_description_title_2.value }}",
             "tab_text_value": "",
-            "tab_text_value_custom": "{%  assign productDescription = product.description | split: '<!-- split -->' %}\n<div class=\"description_top_section\">\n{% for variant in product.variants limit:1 offset: 1 %}\n<div class=\"description_image\">\n<img\nsrc=\"{{variant.featured_image | img_url: '500x'}}\" \/>\n<\/div>\n{% endfor %}\n<div class=\"description_top\">\n{{ productDescription[4] }}\n<\/div>\n<\/div>\n{{ productDescription[5] }}"
+            "tab_text_value_custom": "{%  assign productDescription = product.description | split: '<!-- split -->' %}\n<div class=\"description_top_section\">\n{% for variant in product.variants limit:1 offset: 1 %}\n<div class=\"description_image\">\n<img\nsrc=\"{{variant.featured_image | img_url: '500x'}}\" \/>\n<\/div>\n{% endfor %}\n<div class=\"description_top\">\n{{ productDescription[2] }}\n<\/div>\n<\/div>"
           }
         },
         "43803ee0-dfb6-4857-ae56-6272705c37b3": {
