@@ -82,7 +82,7 @@ border-radius: 50px 0px 0px 50px;
 }
 .description_top_section {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 .description_image {
     width: 40%;
