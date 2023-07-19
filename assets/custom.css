@@ -140,3 +140,9 @@ text-transform:uppercase;
 font-weight:600;
   text-align:Center;
 }
+.notify-form {
+    background-color: #da431d;
+    color: white;
+    padding: 30px;
+    margin-bottom: 50px;
+}
