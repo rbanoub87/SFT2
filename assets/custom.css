@@ -13,7 +13,7 @@
     border-left:none;
     border-right:none;
 }
-  .swatch-element.color.swatch-element label, .swatch-element.swatch-element label {
+  .swatch-element.package.swatch-element label, .swatch-element.swatch-element label {
     padding: 0;
     margin: 0;
     width: 34px;
