@@ -1,1 +1,45 @@
-{"sections":{"main":{"type":"collection-template","custom_css":[],"settings":{"featured_collection_image":true,"wide_display":true,"image":"{{ collection.image }}","caption_content_background":"darken_bg","display_collection_title":true,"collection_breadcrumb":false,"collection_tags":false,"collection_sort":true,"products_per_row":4,"pagination_limit":23,"toggle":false}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "collection-template",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "featured_collection_image": true,
+        "wide_display": true,
+        "image": "{{ collection.image }}",
+        "caption_content_background": "darken_bg",
+        "display_collection_title": true,
+        "collection_breadcrumb": false,
+        "collection_tags": false,
+        "collection_sort": true,
+        "products_per_row": 4,
+        "pagination_limit": 23,
+        "toggle": false
+      }
+    },
+    "5b653e64-3279-46b5-98f1-34ed4942b540": {
+      "type": "faq",
+      "blocks": {
+        "template--14952549187626__5b653e64-3279-46b5-98f1-34ed4942b540-content-1": {
+          "type": "content",
+          "settings": {
+            "title": "Question",
+            "answer": "<p>Provide the answer to the question here.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14952549187626__5b653e64-3279-46b5-98f1-34ed4942b540-content-1"
+      ],
+      "settings": {
+        "title": "{{ collection.title }} FAQ"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "5b653e64-3279-46b5-98f1-34ed4942b540"
+  ]
+}
