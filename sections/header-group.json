@@ -16,7 +16,7 @@
         "logo_display_width": 205,
         "logo": "shopify:\/\/shop_images\/Image_1_ae940e69-6064-4d7d-a5ed-12273224f9ba.png",
         "main_linklist": "main-menu-new-site",
-        "main_linklist2": "right-menu",
+        "main_linklist2": "",
         "vertical_menu": true,
         "dropdown_click": false,
         "search_enabled": true,
