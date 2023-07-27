@@ -1,1 +1,149 @@
-{"sections":{"slideshow-1":{"type":"slideshow","blocks":{"block-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Skinny.jpg","image_logo":"shopify:\/\/shop_images\/White_SFT2_Logo_Final_c93b05e1-10c2-4e42-b8c7-b51c6d065e06.png","pretext":"<p> <\/p>","title":"","subtitle":"","button1":"","button1_link":"","button1_style":"global-button--banner","button2":"","button2_link":"","button2_style":"global-button--banner","text_position":"center","text_align":"center","caption_content_background":"original"}}},"block_order":["block-1"],"settings":{"wide_display":true,"slideshow_text_animation":"fadeInDown","slideshow_animation":"slide","slideshow_speed":6,"activate_adaptiveHeight":false,"mobile_text_below_image":true,"mobile_text_color":"","css_class":"","custom_css":""}},"68c46707-3fb2-447c-9740-6d11a851902f":{"type":"divider","settings":{"divider_spacing":30,"divider_border":false,"css_class":"","custom_css":""}},"featured-collection-1":{"type":"featured-collection","settings":{"title":"New Products!","collection_description":true,"collection":"new-products","collection_style":"slider","products_per":5,"products_limit":8,"css_class":"","custom_css":""}},"5cf1412f-a157-4e94-bb3c-a71943df4e93":{"type":"featured-collection","settings":{"title":"Best Sellers","collection_description":true,"collection":"best-sellers","collection_style":"slider","products_per":5,"products_limit":10,"css_class":"","custom_css":""}},"0578f928-d290-45ea-be05-b5318de17bdf":{"type":"featured-collection","settings":{"title":"Apparel","collection_description":true,"collection":"2nd-amendment-t-shirts","collection_style":"slider","products_per":5,"products_limit":21,"css_class":"","custom_css":""}},"49235eac-f001-4a76-b71b-45416da27a44":{"type":"featured-collection","settings":{"title":"Racks","collection_description":true,"collection":"racks","collection_style":"slider","products_per":5,"products_limit":10,"css_class":"","custom_css":""}},"5d03ea9f-09fe-46f0-bcbf-b89c86565cb6":{"type":"featured-collection","settings":{"title":"Cases","collection_description":true,"collection":"bags-backpacks-and-cases","collection_style":"slider","products_per":5,"products_limit":10,"css_class":"","custom_css":""}},"d4844773-b9e8-4adf-a098-1dc4c29439a6":{"type":"image-with-text-overlay","settings":{"wide_display":true,"image":"shopify:\/\/shop_images\/small_small_mountain.jpg","pretext":"","title":"","subtitle":"","button1":"Shop now","button1_link":"shopify:\/\/collections\/best-sellers","button1_style":"global-button--banner","button2":"","button2_link":"","button2_style":"global-button--banner","text_position":"center","text_align":"center","caption_content_background":"original","mobile_text_below_image":false,"mobile_text_color":"","css_class":"","custom_css":""}}},"order":["slideshow-1","68c46707-3fb2-447c-9740-6d11a851902f","featured-collection-1","5cf1412f-a157-4e94-bb3c-a71943df4e93","0578f928-d290-45ea-be05-b5318de17bdf","49235eac-f001-4a76-b71b-45416da27a44","5d03ea9f-09fe-46f0-bcbf-b89c86565cb6","d4844773-b9e8-4adf-a098-1dc4c29439a6"]}
+{
+  "sections": {
+    "slideshow-1": {
+      "type": "slideshow",
+      "blocks": {
+        "block-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Skinny.jpg",
+            "image_logo": "shopify:\/\/shop_images\/White_SFT2_Logo_Final_c93b05e1-10c2-4e42-b8c7-b51c6d065e06.png",
+            "pretext": "<p> <\/p>",
+            "title": "",
+            "subtitle": "",
+            "button1": "",
+            "button1_link": "",
+            "button1_style": "global-button--banner",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        }
+      },
+      "block_order": [
+        "block-1"
+      ],
+      "settings": {
+        "wide_display": true,
+        "slideshow_text_animation": "fadeInDown",
+        "slideshow_animation": "slide",
+        "slideshow_speed": 6,
+        "activate_adaptiveHeight": false,
+        "mobile_text_below_image": true,
+        "mobile_text_color": "",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "68c46707-3fb2-447c-9740-6d11a851902f": {
+      "type": "divider",
+      "settings": {
+        "divider_spacing": 30,
+        "divider_border": false,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "featured-collection-1": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "New Products!",
+        "collection_description": true,
+        "collection": "new-products",
+        "collection_style": "slider",
+        "products_per": 5,
+        "products_limit": 8,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "5cf1412f-a157-4e94-bb3c-a71943df4e93": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Best Sellers",
+        "collection_description": false,
+        "collection": "best-sellers",
+        "collection_style": "slider",
+        "products_per": 5,
+        "products_limit": 10,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "0578f928-d290-45ea-be05-b5318de17bdf": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Apparel",
+        "collection_description": false,
+        "collection": "2nd-amendment-t-shirts",
+        "collection_style": "slider",
+        "products_per": 5,
+        "products_limit": 21,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "49235eac-f001-4a76-b71b-45416da27a44": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Racks",
+        "collection_description": false,
+        "collection": "racks",
+        "collection_style": "slider",
+        "products_per": 5,
+        "products_limit": 10,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "5d03ea9f-09fe-46f0-bcbf-b89c86565cb6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Cases",
+        "collection_description": false,
+        "collection": "bags-backpacks-and-cases",
+        "collection_style": "slider",
+        "products_per": 5,
+        "products_limit": 10,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "d4844773-b9e8-4adf-a098-1dc4c29439a6": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "wide_display": true,
+        "image": "shopify:\/\/shop_images\/small_small_mountain.jpg",
+        "pretext": "",
+        "title": "",
+        "subtitle": "",
+        "button1": "Shop now",
+        "button1_link": "shopify:\/\/collections\/best-sellers",
+        "button1_style": "global-button--banner",
+        "button2": "",
+        "button2_link": "",
+        "button2_style": "global-button--banner",
+        "text_position": "center",
+        "text_align": "center",
+        "caption_content_background": "original",
+        "mobile_text_below_image": false,
+        "mobile_text_color": "",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "slideshow-1",
+    "68c46707-3fb2-447c-9740-6d11a851902f",
+    "featured-collection-1",
+    "5cf1412f-a157-4e94-bb3c-a71943df4e93",
+    "0578f928-d290-45ea-be05-b5318de17bdf",
+    "49235eac-f001-4a76-b71b-45416da27a44",
+    "5d03ea9f-09fe-46f0-bcbf-b89c86565cb6",
+    "d4844773-b9e8-4adf-a098-1dc4c29439a6"
+  ]
+}
