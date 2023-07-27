@@ -18,6 +18,7 @@
     margin: 0;
     width: 50px;
     height: 50px;
+    border-radius:50%;
 }
   .swatch.is-flex.is-flex-wrap, .purchase-details__quantity.product-quantity-box {
     background-color: #efefef;
