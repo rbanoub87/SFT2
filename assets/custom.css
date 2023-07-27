@@ -24,6 +24,7 @@
     background-color: #efefef;
     margin-bottom: 5%;
     padding: 2% 3%;
+    align-items: center;
     
 }
   .product-quantity-box.purchase-details__quantity {
