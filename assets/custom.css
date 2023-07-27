@@ -44,6 +44,11 @@ h1.product_name {
   line-height: 1.1em;
   letter-spacing: 0;
 }
+.swatch-element,
+.swatch-element.swatch-element label,
+.swatch_options input:checked + .swatch-element {
+  border-radius: 50%;
+}
 .product-quantity-box label {
     margin-right: 50px;
 }
