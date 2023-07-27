@@ -7,6 +7,7 @@ Set the extension of your color files below. Use 'png', 'jpeg', 'jpg' or 'gif'.
 {%- assign found_option = false -%}
 {%- assign is_color = false -%}
 {%- assign is_size = false -%}
+{%- assign is_package = false -%}
 {%- assign option_index = 0 -%}
 
 {% for option in product.options %}
@@ -21,6 +22,9 @@ Set the extension of your color files below. Use 'png', 'jpeg', 'jpg' or 'gif'.
   {% endif %}
   {%  if downcased_option contains 'size' %}
     {% assign is_size = true %}
+    {% endif %}
+    {%  if downcased_option contains 'package' or doawncased_option contains 'style' %}
+    {% assign is_package = true %}
     {% endif %}
 {% endfor %}
 
@@ -39,7 +43,7 @@ Set the extension of your color files below. Use 'png', 'jpeg', 'jpg' or 'gif'.
 
       <input id="swatch-{{ option_index }}-{{ value | replace: ' ', '-' }}-{{ product.id }}{% if section.id %}-{{ section.id }}{% endif %}" type="radio" name="option-{{ option_index }}" aria-label="{{ value | escape }}" tabindex="0" value="{{ value | escape }}"{% if forloop.first %} checked{% endif %} />
 
-      <div tabindex="0"  value="{{ value | escape }}" data-value="{{ value | escape }}" data-id="{{ variant.id }}" class="swatch-element {% if is_color %}color{% endif %} {{ value | handle }}-swatch {% if variant.available %}available{% else %}soldout{% endif %}">
+      <div tabindex="0"  value="{{ value | escape }}" data-value="{{ value | escape }}" data-id="{{ variant.id }}" class="swatch-element {% if is_package %}package{% endif %} {% if is_color %}color{% endif %} {{ value | handle }}-swatch {% if variant.available %}available{% else %}soldout{% endif %}">
        
           <div class="tooltip">{{ value }}</div>
       
@@ -50,7 +54,7 @@ Set the extension of your color files below. Use 'png', 'jpeg', 'jpg' or 'gif'.
           </label>
         {% else %}
           {% unless is_size %}
-          <label class="variant_img" {% if variant.featured_image %}data-image="{{ variant.featured_image | product_img_url: '600x' }}"{% endif %} for="swatch-{{ option_index }}-{{ value | replace: ' ', '-' }}-{{ product.id }}{% if section.id %}-{{ section.id }}{% endif %}" style="background-image: url({{ variant.featured_image | product_img_url: '150x' }}); background-color: {{ value | split: ' ' | last | handle }};">
+          <label class="variant_img" {% if variant.featured_image %}data-image="{{ variant.featured_image | product_img_url: '50x' }}"{% endif %} for="swatch-{{ option_index }}-{{ value | replace: ' ', '-' }}-{{ product.id }}{% if section.id %}-{{ section.id }}{% endif %}" style="background-image: url({{ variant.featured_image | product_img_url: '50x' }}); background-color: {{ value | split: ' ' | last | handle }};">
             <img class="crossed-out" src="{{ 'soldout.png' | asset_url }}" aria-label="sold out" alt="sold out"/>
           </label>
             {% else %}
