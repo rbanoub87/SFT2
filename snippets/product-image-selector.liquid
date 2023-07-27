@@ -20,7 +20,7 @@ Set the extension of your color files below. Use 'png', 'jpeg', 'jpg' or 'gif'.
       {%- assign is_color = true -%}
     {% endif %}
   {% endif %}
-  {%  if downcased_option contains 'size' or downcased_option contains 'finish' or downcased_option contains 'trim' %}
+  {%  if downcased_option != 'color' or downcased_option != 'package' or downcased_option != 'style' %}
     {% assign is_size = true %}
     {% endif %}
     {%  if downcased_option contains 'package' or downcased_option contains 'style' %}
