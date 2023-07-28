@@ -1,1 +1,56 @@
-{"type":"footer","name":"Footer","sections":{"footer":{"type":"footer","blocks":{"footer_0":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/Image_1_ae940e69-6064-4d7d-a5ed-12273224f9ba.png","text_align":"left","social_icons_footer":false}},"footer_1":{"type":"link_list","settings":{"menu":"quick-links","social_icons_footer":true}},"footer_2":{"type":"link_list","settings":{"menu":"shop","social_icons_footer":false}},"37378c14-455f-47e5-b61b-57ed3edde112":{"type":"link_list","settings":{"menu":"other-links","social_icons_footer":false}}},"block_order":["footer_0","footer_1","footer_2","37378c14-455f-47e5-b61b-57ed3edde112"],"settings":{"copyright_text":"","display_designed_by":false,"display_payment_methods":true,"show_locale_selector":true,"show_currency_selector":false}}},"order":["footer"]}
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer_0": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_1_ae940e69-6064-4d7d-a5ed-12273224f9ba.png",
+            "text_align": "left",
+            "social_icons_footer": false
+          }
+        },
+        "footer_1": {
+          "type": "link_list",
+          "settings": {
+            "menu": "quick-links",
+            "social_icons_footer": true
+          }
+        },
+        "footer_2": {
+          "type": "link_list",
+          "settings": {
+            "menu": "shop",
+            "social_icons_footer": false
+          }
+        },
+        "37378c14-455f-47e5-b61b-57ed3edde112": {
+          "type": "link_list",
+          "settings": {
+            "menu": "other-links",
+            "social_icons_footer": false
+          }
+        }
+      },
+      "block_order": [
+        "footer_0",
+        "footer_1",
+        "footer_2",
+        "37378c14-455f-47e5-b61b-57ed3edde112"
+      ],
+      "settings": {
+        "copyright_text": "",
+        "display_designed_by": false,
+        "display_payment_methods": true,
+        "show_locale_selector": false,
+        "show_currency_selector": false
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
