@@ -68,7 +68,7 @@
         "collection": "best-sellers",
         "collection_style": "slider",
         "products_per": 5,
-        "products_limit": 50,
+        "products_limit": 8,
         "css_class": "",
         "custom_css": ""
       }
@@ -81,7 +81,7 @@
         "collection": "2nd-amendment-t-shirts",
         "collection_style": "slider",
         "products_per": 5,
-        "products_limit": 50,
+        "products_limit": 8,
         "css_class": "",
         "custom_css": ""
       }
@@ -107,7 +107,7 @@
         "collection": "bags-backpacks-and-cases",
         "collection_style": "slider",
         "products_per": 5,
-        "products_limit": 50,
+        "products_limit": 8,
         "css_class": "",
         "custom_css": ""
       }
