@@ -53,9 +53,9 @@
         "title": "New Products!",
         "collection_description": false,
         "collection": "new-products",
-        "collection_style": "grid",
+        "collection_style": "slider",
         "products_per": 5,
-        "products_limit": 5,
+        "products_limit": 10,
         "css_class": "",
         "custom_css": ""
       }
