@@ -55,7 +55,7 @@
         "collection": "new-products",
         "collection_style": "slider",
         "products_per": 5,
-        "products_limit": 8,
+        "products_limit": 10,
         "css_class": "",
         "custom_css": ""
       }
@@ -68,7 +68,7 @@
         "collection": "best-sellers",
         "collection_style": "slider",
         "products_per": 5,
-        "products_limit": 8,
+        "products_limit": 10,
         "css_class": "",
         "custom_css": ""
       }
@@ -76,12 +76,12 @@
     "0578f928-d290-45ea-be05-b5318de17bdf": {
       "type": "featured-collection",
       "settings": {
-        "title": "Apparel",
+        "title": "tactical bags & rifle cases",
         "collection_description": false,
-        "collection": "2nd-amendment-t-shirts",
+        "collection": "bags-backpacks-and-cases",
         "collection_style": "slider",
         "products_per": 5,
-        "products_limit": 8,
+        "products_limit": 10,
         "css_class": "",
         "custom_css": ""
       }
@@ -89,7 +89,7 @@
     "49235eac-f001-4a76-b71b-45416da27a44": {
       "type": "featured-collection",
       "settings": {
-        "title": "Racks",
+        "title": "display Racks",
         "collection_description": false,
         "collection": "racks",
         "collection_style": "slider",
@@ -102,12 +102,25 @@
     "5d03ea9f-09fe-46f0-bcbf-b89c86565cb6": {
       "type": "featured-collection",
       "settings": {
-        "title": "Cases",
+        "title": "concealment furniture",
         "collection_description": false,
-        "collection": "bags-backpacks-and-cases",
+        "collection": "furniture-and-concealment",
         "collection_style": "slider",
         "products_per": 5,
-        "products_limit": 8,
+        "products_limit": 10,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "0c5b75d3-9ef4-450f-990a-c248fa04ddee": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "apparel",
+        "collection_description": false,
+        "collection": "2nd-amendment-t-shirts",
+        "collection_style": "slider",
+        "products_per": 5,
+        "products_limit": 10,
         "css_class": "",
         "custom_css": ""
       }
@@ -144,6 +157,7 @@
     "0578f928-d290-45ea-be05-b5318de17bdf",
     "49235eac-f001-4a76-b71b-45416da27a44",
     "5d03ea9f-09fe-46f0-bcbf-b89c86565cb6",
+    "0c5b75d3-9ef4-450f-990a-c248fa04ddee",
     "d4844773-b9e8-4adf-a098-1dc4c29439a6"
   ]
 }
