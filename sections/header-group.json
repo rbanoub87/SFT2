@@ -18,7 +18,7 @@
         "main_linklist": "main-menu-new-site",
         "main_linklist2": "",
         "vertical_menu": true,
-        "dropdown_click": false,
+        "dropdown_click": true,
         "search_enabled": true,
         "fixed_header": true,
         "logo_position": "center",
@@ -29,110 +29,6 @@
     },
     "f0615ee4-136a-456b-a71c-13cad78a2b95": {
       "type": "mega-menu-3",
-      "blocks": {
-        "sections--14925895139370__f0615ee4-136a-456b-a71c-13cad78a2b95-1684545157ae8009d6-0": {
-          "type": "column",
-          "settings": {
-            "richtext_top": "<p>Add description, images, menus and links to your mega menu<\/p>",
-            "image_caption_top": "",
-            "image_link_top": "",
-            "menu_1": "",
-            "menu_1_link": "",
-            "menu_2": "",
-            "menu_2_link": "",
-            "menu_3": "",
-            "menu_3_link": "",
-            "menu_4": "",
-            "menu_4_link": "",
-            "image_caption_bottom": "",
-            "image_link_bottom": "",
-            "richtext_bottom": ""
-          }
-        },
-        "sections--14925895139370__f0615ee4-136a-456b-a71c-13cad78a2b95-1684545157ae8009d6-1": {
-          "type": "column",
-          "settings": {
-            "richtext_top": "<p>A column with no settings can be used as a spacer<\/p>",
-            "image_caption_top": "",
-            "image_link_top": "",
-            "menu_1": "",
-            "menu_1_link": "",
-            "menu_2": "",
-            "menu_2_link": "",
-            "menu_3": "",
-            "menu_3_link": "",
-            "menu_4": "",
-            "menu_4_link": "",
-            "image_caption_bottom": "",
-            "image_link_bottom": "",
-            "richtext_bottom": ""
-          }
-        },
-        "sections--14925895139370__f0615ee4-136a-456b-a71c-13cad78a2b95-1684545157ae8009d6-2": {
-          "type": "column",
-          "settings": {
-            "richtext_top": "",
-            "image_caption_top": "",
-            "image_link_top": "",
-            "menu_1": "",
-            "menu_1_link": "",
-            "menu_2": "",
-            "menu_2_link": "",
-            "menu_3": "",
-            "menu_3_link": "",
-            "menu_4": "",
-            "menu_4_link": "",
-            "image_caption_bottom": "",
-            "image_link_bottom": "",
-            "richtext_bottom": ""
-          }
-        },
-        "sections--14925895139370__f0615ee4-136a-456b-a71c-13cad78a2b95-1684545157ae8009d6-3": {
-          "type": "column",
-          "settings": {
-            "richtext_top": "<p>Link to your collections, sales and even external links<\/p>",
-            "image_caption_top": "",
-            "image_link_top": "",
-            "menu_1": "",
-            "menu_1_link": "",
-            "menu_2": "",
-            "menu_2_link": "",
-            "menu_3": "",
-            "menu_3_link": "",
-            "menu_4": "",
-            "menu_4_link": "",
-            "image_caption_bottom": "",
-            "image_link_bottom": "",
-            "richtext_bottom": ""
-          }
-        },
-        "sections--14925895139370__f0615ee4-136a-456b-a71c-13cad78a2b95-1684545157ae8009d6-4": {
-          "type": "column",
-          "settings": {
-            "richtext_top": "<p>Add up to five columns<\/p>",
-            "image_caption_top": "",
-            "image_link_top": "",
-            "menu_1": "",
-            "menu_1_link": "",
-            "menu_2": "",
-            "menu_2_link": "",
-            "menu_3": "",
-            "menu_3_link": "",
-            "menu_4": "",
-            "menu_4_link": "",
-            "image_caption_bottom": "",
-            "image_link_bottom": "",
-            "richtext_bottom": ""
-          }
-        }
-      },
-      "block_order": [
-        "sections--14925895139370__f0615ee4-136a-456b-a71c-13cad78a2b95-1684545157ae8009d6-0",
-        "sections--14925895139370__f0615ee4-136a-456b-a71c-13cad78a2b95-1684545157ae8009d6-1",
-        "sections--14925895139370__f0615ee4-136a-456b-a71c-13cad78a2b95-1684545157ae8009d6-2",
-        "sections--14925895139370__f0615ee4-136a-456b-a71c-13cad78a2b95-1684545157ae8009d6-3",
-        "sections--14925895139370__f0615ee4-136a-456b-a71c-13cad78a2b95-1684545157ae8009d6-4"
-      ],
       "settings": {
         "parent": "Shop"
       }
