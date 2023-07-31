@@ -42,6 +42,8 @@
       data-products-available="{{ products_length }}">
   {% for product in products limit: loop_limit %}
 
+    {%- assign collection_handles = product.collections | map: 'handle' -%}
+
     {% if product.id != skip_product.id %}
       <div class="gallery-cell
                   thumbnail
