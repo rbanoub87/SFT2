@@ -48,7 +48,7 @@
     <div class="js-product-slider homepage-product-slider full-width--true {% if section.settings.products_per  == 2 or section.settings.products_per  == 4 or section.settings.products_per  == 6 %}even-num-slides{% endif %} featured-collection__products">
       {% if section_onboarding == false %}
         {% if collection.products.size > 0 %}
-          {% assign sorted_products = collection.products | sort: 'manual' %}
+          {% assign sorted_products = collection.products | sort: 'best-selling' %}
 
           {%
             render 'product-slider',
