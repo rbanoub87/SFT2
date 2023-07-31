@@ -22,8 +22,8 @@
     "6cf50fa4-4a17-4715-8c54-451fa76726e1": {
       "type": "featured-text",
       "settings": {
-        "title": "",
-        "content": "",
+        "title": "{{ collection.metafields.custom.bottom_section_title.value }}",
+        "content": "<p>{{ collection.metafields.custom.bottom_section_paragraph | metafield_tag }}<\/p>",
         "button_label": "",
         "button_link": "",
         "text_size": "regular_text",
