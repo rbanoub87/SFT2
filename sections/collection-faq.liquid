@@ -4,7 +4,7 @@
   data-section-id="{{ section.id }}"
 >
 </script>
-
+{% assign custom_faqs = collection.metafields.custom.faqs.value %}
 <section class="section">
   <div
     class="
@@ -15,7 +15,7 @@
       has-gutter-enabled
     "
   >
-    {% if section.settings.title != blank %}
+    {% if custom_faqs != null %}
       <div
         class="
           one-whole
@@ -45,7 +45,7 @@
 
    
 
-{% assign custom_faqs = collection.metafields.custom.faqs.value %}
+
 {% if custom_faqs != null %}
     <dl class="faqAccordion">
         {% for metaobject in custom_faqs %}
@@ -65,8 +65,7 @@
     </dl>
 {% endif %}
 
-
-   <!-- Metafield Debugging: {{ custom_faqs | json }} -->   
+ 
     </div>
 
     {% if section.blocks.size > 0 %}
