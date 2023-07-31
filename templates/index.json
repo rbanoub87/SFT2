@@ -57,7 +57,7 @@
         "products_per": 5,
         "products_limit": 10,
         "css_class": "",
-        "custom_css": ""
+        "custom_css": ".flickity-slider {\n    transform: none !important;\n}"
       }
     },
     "5cf1412f-a157-4e94-bb3c-a71943df4e93": {
