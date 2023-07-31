@@ -77,11 +77,11 @@
           {% endfor %}
         </dl>
       {% endif %}
-{{ collection.metafields.custom.faqs.values }}      
+   
 {% assign custom_faqs = collection.metafields.custom.faqs.value %}
  {% if custom_faqs > 0 %}
         <dl class="faqAccordion">
-          {% for metaobject in collection.metafields.custom.faqs.value %}
+          {% for metaobject in custom_faqs %}
           
               <dt>
                 <button
@@ -89,11 +89,11 @@
                   aria-controls="panel-01"
                   aria-expanded="true"
                 >
-                  {{ collection_faq.question }}
+                  {{ collection.metafields.custom.faqs.collection_faq.question }}
                 </button>
               </dt>
               <dd id="panel-01" aria-hidden="false">
-                {{ collection_faq.answer }}
+                {{ collection.metafields.custom.faqs.collection_faq.answer }}
               </dd>
 
           {% endfor %}
