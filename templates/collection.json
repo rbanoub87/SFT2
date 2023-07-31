@@ -18,28 +18,9 @@
         "pagination_limit": 23,
         "toggle": false
       }
-    },
-    "5b653e64-3279-46b5-98f1-34ed4942b540": {
-      "type": "faq",
-      "blocks": {
-        "template--14952549187626__5b653e64-3279-46b5-98f1-34ed4942b540-content-1": {
-          "type": "content",
-          "settings": {
-            "title": "{{ collection.metafields.custom.question.value.question.value }}",
-            "answer": "<p>{{ collection.metafields.custom.question.value.answer | metafield_tag }}<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--14952549187626__5b653e64-3279-46b5-98f1-34ed4942b540-content-1"
-      ],
-      "settings": {
-        "title": "{{ collection.title }} FAQ"
-      }
     }
   },
   "order": [
-    "main",
-    "5b653e64-3279-46b5-98f1-34ed4942b540"
+    "main"
   ]
 }
