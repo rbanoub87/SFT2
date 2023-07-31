@@ -31,10 +31,17 @@
         "css_class": "",
         "custom_css": ""
       }
+    },
+    "539f0225-7cc3-4ccd-a6ec-621f428b7d40": {
+      "type": "faq",
+      "settings": {
+        "title": "{{ collection.title }} FAQ"
+      }
     }
   },
   "order": [
     "main",
-    "6cf50fa4-4a17-4715-8c54-451fa76726e1"
+    "6cf50fa4-4a17-4715-8c54-451fa76726e1",
+    "539f0225-7cc3-4ccd-a6ec-621f428b7d40"
   ]
 }
