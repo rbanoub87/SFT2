@@ -80,7 +80,7 @@
 {% assign custom_faqs = collection.metafields.custom.faqs.value %}
  {% if custom_faqs > 0 %}
         <dl class="faqAccordion">
-          {% for metaobject in collection.metafields.custom.faqs %}
+          {% for metaobject in collection.metafields.custom.faqs.value %}
           
               <dt>
                 <button
