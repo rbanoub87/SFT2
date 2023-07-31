@@ -55,7 +55,7 @@
         "collection": "new-products",
         "collection_style": "slider",
         "products_per": 5,
-        "products_limit": 10,
+        "products_limit": 8,
         "css_class": "",
         "custom_css": ""
       }
