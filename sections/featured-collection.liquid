@@ -48,10 +48,12 @@
     <div class="js-product-slider homepage-product-slider full-width--true {% if section.settings.products_per  == 2 or section.settings.products_per  == 4 or section.settings.products_per  == 6 %}even-num-slides{% endif %} featured-collection__products">
       {% if section_onboarding == false %}
         {% if collection.products.size > 0 %}
+          {% assign sorted_products = collection.products | sort: 'title' %}
+
           {%
             render 'product-slider',
             limit: section.settings.products_limit,
-            products: collection.products,
+            products: sorted_products,
             collection: collection,
             per_slide: section.settings.products_per,
             featured_collection: collection,
@@ -89,7 +91,7 @@
             {%
               render 'product-loop',
               limit: section.settings.products_limit | plus: 1,
-              products: collection.products,
+              products: sorted_products,
               collection: collection,
               skip_product: product,
               products_per_row: section.settings.products_per,
