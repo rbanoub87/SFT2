@@ -21,7 +21,7 @@
   {% if limit <= visible_products %}
     {% assign products_length = limit %}
   {% else %}
-    {% assign products_length = products.size | minus: 1 %}
+    {% assign products_length = products.size | minus: 3 %}
   {% endif %}
 {% elsif featured_collection %}
   {% comment %} NE compatibility
