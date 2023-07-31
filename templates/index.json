@@ -60,17 +60,6 @@
         "custom_css": ""
       }
     },
-    "19c5447b-5372-47bd-8d62-30fbbb7554d2": {
-      "type": "featured-col",
-      "settings": {
-        "title": "Featured collection",
-        "collection_description": false,
-        "collection": "new-products",
-        "collection_style": "slider",
-        "products_per": 5,
-        "products_limit": 8
-      }
-    },
     "5cf1412f-a157-4e94-bb3c-a71943df4e93": {
       "type": "featured-collection",
       "settings": {
@@ -164,7 +153,6 @@
     "slideshow-1",
     "68c46707-3fb2-447c-9740-6d11a851902f",
     "featured-collection-1",
-    "19c5447b-5372-47bd-8d62-30fbbb7554d2",
     "5cf1412f-a157-4e94-bb3c-a71943df4e93",
     "0578f928-d290-45ea-be05-b5318de17bdf",
     "49235eac-f001-4a76-b71b-45416da27a44",
