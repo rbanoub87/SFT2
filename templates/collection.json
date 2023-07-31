@@ -34,8 +34,20 @@
     },
     "063fc483-0697-484a-a455-db03a4d263ac": {
       "type": "collection-faq",
+      "blocks": {
+        "c61ba573-43b0-46af-a593-47a2024a7520": {
+          "type": "content",
+          "settings": {
+            "title": "Question",
+            "answer": "<p>Provide the answer to the question here.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "c61ba573-43b0-46af-a593-47a2024a7520"
+      ],
       "settings": {
-        "title": "{{ collection.title }} FAQ"
+        "title": "{{ collection.title }} FAQs"
       }
     }
   },
