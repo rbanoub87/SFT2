@@ -55,11 +55,11 @@
                 aria-controls="panel-01"
                 aria-expanded="true"
                 >
-                    {{ metaobject.collection_faq.question }}
+                    {{ metaobject.collection_faq.question.value }}
                 </button>
             </dt>
             <dd id="panel-01" aria-hidden="false">
-                {{ metaobject.answer }}
+                {{ metaobject.collection_faq.answer.value }}
             </dd>
         {% endfor %}
     </dl>
