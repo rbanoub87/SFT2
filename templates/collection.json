@@ -18,9 +18,23 @@
         "pagination_limit": 23,
         "toggle": false
       }
+    },
+    "6cf50fa4-4a17-4715-8c54-451fa76726e1": {
+      "type": "featured-text",
+      "settings": {
+        "title": "",
+        "content": "",
+        "button_label": "",
+        "button_link": "",
+        "text_size": "regular_text",
+        "text_alignment": "center",
+        "css_class": "",
+        "custom_css": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "6cf50fa4-4a17-4715-8c54-451fa76726e1"
   ]
 }
