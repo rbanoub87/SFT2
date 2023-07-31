@@ -78,27 +78,27 @@
         </dl>
       {% endif %}
    
-{% assign custom_faqs = collection.metafields.custom.faqs.value %}
- {% if custom_faqs > 0 %}
-        <dl class="faqAccordion">
-          {% for metaobject in custom_faqs %}
-          
-              <dt>
-                <button
-                  type="button"
-                  aria-controls="panel-01"
-                  aria-expanded="true"
-                >
-                  {{ collection.metafields.custom.faqs.collection_faq.question }}
-                </button>
-              </dt>
-              <dd id="panel-01" aria-hidden="false">
-                {{ collection.metafields.custom.faqs.collection_faq.answer }}
-              </dd>
 
-          {% endfor %}
-        </dl>
-      {% endif %}
+      {% assign custom_faqs = collection.metafields.custom.faqs.value %}
+{% if custom_faqs.size > 0 %}
+    <dl class="faqAccordion">
+        {% for metaobject in custom_faqs %}
+            <dt>
+                <button
+                type="button"
+                aria-controls="panel-01"
+                aria-expanded="true"
+                >
+                    {{ metaobject.question }}
+                </button>
+            </dt>
+            <dd id="panel-01" aria-hidden="false">
+                {{ metaobject.answer }}
+            </dd>
+        {% endfor %}
+    </dl>
+{% endif %}
+
       
     </div>
 
