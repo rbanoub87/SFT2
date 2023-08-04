@@ -1,11 +1,5 @@
 {% comment %}Check for related products and increase limit by one (to offset the currently selected product that is removed from the product loop){% endcomment %}
-{% if related_products == true %}
-  {% assign limit = limit | plus: 0 %}
-  {% assign loop_limit = limit | plus: 1 %}
-{% else %}
-  {% assign limit = limit | plus: 0 %}
-  {% assign loop_limit = limit | plus: 0 %}
-{% endif %}
+
 
 {% if per_slide != blank %}
   {% assign visible_products = per_slide %}
