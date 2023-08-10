@@ -187,9 +187,9 @@
     "d14ac0c7-0ebd-4ac2-95b5-34c0b50b70ab": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n.V_container {\n    position: relative;\n    width: 100%;\n    height: 0;\n    padding-bottom: 56.25%;\n}\n.video {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n}\n<\/style>\n{% assign video_url = product.metafields.custom.video_url %}\n{% if video_url != blank %}\n<div class=\"V_container\">\n  <iframe width=\"560\" height=\"315\" src=\"{{video_url}}\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" class=\"video\" allowfullscreen><\/iframe>\n<\/div>\n{%endif %}",
+        "custom_liquid": "{% assign video_url = product.metafields.custom.video_url %}\n{% if video_url != blank %}\n<div class=\"V_container\">\n  <iframe width=\"560\" height=\"315\" src=\"{{video_url}}\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" class=\"video\" allowfullscreen><\/iframe>\n<\/div>\n{%endif %}",
         "css_class": "",
-        "custom_css": ""
+        "custom_css": ".V_container {\n    position: relative;\n    width: 100%;\n    height: 0;\n    padding-bottom: 56.25%;\n}\n.video {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n}"
       }
     }
   },
