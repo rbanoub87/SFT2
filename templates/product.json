@@ -102,7 +102,7 @@
           "settings": {
             "tab_heading_value": "{{ product.metafields.custom.extra_description_title.value }}",
             "tab_text_value": "",
-            "tab_text_value_custom": "{%  assign productDescription = product.description | split: '<!-- split -->' %}\n<div class=\"description_top_section\">\n{% for variant in product.variants limit:1 %}\n{% if variant.featured_image != blank %}\n<div class=\"description_image\">\n<img src=\"{{variant.featured_image | img_url: '500x'}}\" \/>\n<\/div>\n{% endif %}\n{% endfor %}\n<div class=\"description_top\">\n{{ productDescription[2] }}\n<\/div>\n<\/div>"
+            "tab_text_value_custom": "{%  assign productDescription = product.description | split: '<!-- split -->' %}\n<div class=\"description_top_section\">\n\n{% if product.metafields.custom.tab_1_image %}\n<div class=\"description_image\">\n<img src=\"{{product.metafields.custom.tab_1_image | img_url: '500x'}}\" \/>\n<\/div>\n{% endif %}\n\n<div class=\"description_top\">\n{{ productDescription[2] }}\n<\/div>\n<\/div>"
           }
         },
         "20636831-9670-45ac-ba3f-50f6ab6588f1": {
