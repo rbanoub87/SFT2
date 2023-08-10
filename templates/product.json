@@ -183,6 +183,37 @@
       ],
       "settings": {
       }
+    },
+    "57ade0ff-65cb-4642-b6ee-89f86cfeb033": {
+      "type": "video",
+      "settings": {
+        "wide_display": true,
+        "aspect_ratio": "16:9",
+        "autoplay": false,
+        "autoloop": true,
+        "mute_video": false,
+        "show_controls": true,
+        "video_dark_overlay": false,
+        "iframe_video": "",
+        "html5_video": "",
+        "display_text_over_video": false,
+        "preheading": "",
+        "heading": "",
+        "subheading": "",
+        "button1_label": "Play Video",
+        "button1_link": "",
+        "button1_style": "global-button--banner",
+        "button2_label": "",
+        "button2_link": "",
+        "button2_style": "global-button--banner",
+        "text_position": "center",
+        "text_align": "center",
+        "caption_content_background": "original",
+        "mobile_text_below_image": true,
+        "mobile_text_color": "",
+        "css_class": "",
+        "custom_css": ""
+      }
     }
   },
   "order": [
@@ -191,6 +222,7 @@
     "73a21db1-56d1-4b86-acd2-5fb2c05de7e2",
     "0ab648f2-9662-48fd-ab5e-78064f04a0a9",
     "recommendations",
-    "loox-product-reviews-app-section"
+    "loox-product-reviews-app-section",
+    "57ade0ff-65cb-4642-b6ee-89f86cfeb033"
   ]
 }
