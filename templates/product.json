@@ -23,7 +23,9 @@
             "alignment": "",
             "textColor": "",
             "starColor": "",
-            "showAllReviews": false
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
           }
         },
         "price": {
@@ -103,6 +105,30 @@
             "tab_text_value_custom": "{%  assign productDescription = product.description | split: '<!-- split -->' %}\n<div class=\"description_top_section\">\n{% for variant in product.variants limit:1 offset: 1 %}\n<div class=\"description_image\">\n<img\nsrc=\"{{variant.featured_image | img_url: '500x'}}\" \/>\n<\/div>\n{% endfor %}\n<div class=\"description_top\">\n{{ productDescription[3] }}\n<\/div>\n<\/div>"
           }
         },
+        "c8817804-f1b3-4560-9102-a0afb43043fa": {
+          "type": "tab",
+          "settings": {
+            "tab_heading_value": "{{ product.metafields.custom.extra_description_title_3.value }}",
+            "tab_text_value": "",
+            "tab_text_value_custom": "{%  assign productDescription = product.description | split: '<!-- split -->' %}\n<div class=\"description_top_section\">\n{% for variant in product.variants limit:1 offset: 1 %}\n<div class=\"description_image\">\n<img\nsrc=\"{{variant.featured_image | img_url: '500x'}}\" \/>\n<\/div>\n{% endfor %}\n<div class=\"description_top\">\n{{ productDescription[4] }}\n<\/div>\n<\/div>"
+          }
+        },
+        "12998b04-860f-48a5-b746-11714d10d34d": {
+          "type": "tab",
+          "settings": {
+            "tab_heading_value": "{{ product.metafields.custom.extra_description_title_4.value }}",
+            "tab_text_value": "",
+            "tab_text_value_custom": "{%  assign productDescription = product.description | split: '<!-- split -->' %}\n<div class=\"description_top_section\">\n{% for variant in product.variants limit:1 offset: 1 %}\n<div class=\"description_image\">\n<img\nsrc=\"{{variant.featured_image | img_url: '500x'}}\" \/>\n<\/div>\n{% endfor %}\n<div class=\"description_top\">\n{{ productDescription[5] }}\n<\/div>\n<\/div>"
+          }
+        },
+        "e6be0fe2-073a-4607-be64-3a74f0d2f63b": {
+          "type": "tab",
+          "settings": {
+            "tab_heading_value": "{{ product.metafields.custom.extra_description_title_5.value }}",
+            "tab_text_value": "",
+            "tab_text_value_custom": "{%  assign productDescription = product.description | split: '<!-- split -->' %}\n<div class=\"description_top_section\">\n{% for variant in product.variants limit:1 offset: 1 %}\n<div class=\"description_image\">\n<img\nsrc=\"{{variant.featured_image | img_url: '500x'}}\" \/>\n<\/div>\n{% endfor %}\n<div class=\"description_top\">\n{{ productDescription[6] }}\n<\/div>\n<\/div>"
+          }
+        },
         "43803ee0-dfb6-4857-ae56-6272705c37b3": {
           "type": "tab",
           "settings": {
@@ -115,6 +141,9 @@
       "block_order": [
         "630ee29c-c8a3-4ed6-acfd-853ed5ee9f5b",
         "20636831-9670-45ac-ba3f-50f6ab6588f1",
+        "c8817804-f1b3-4560-9102-a0afb43043fa",
+        "12998b04-860f-48a5-b746-11714d10d34d",
+        "e6be0fe2-073a-4607-be64-3a74f0d2f63b",
         "43803ee0-dfb6-4857-ae56-6272705c37b3"
       ],
       "custom_css": [
