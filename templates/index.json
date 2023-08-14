@@ -35,7 +35,7 @@
         "mobile_text_below_image": false,
         "mobile_text_color": "",
         "css_class": "",
-        "custom_css": ""
+        "custom_css": ".promo-banner__close {\n    visibility: hidden;\n}"
       }
     },
     "68c46707-3fb2-447c-9740-6d11a851902f": {
