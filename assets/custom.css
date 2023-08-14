@@ -83,12 +83,8 @@ border-radius: 50px 0px 0px 50px;
     align-items: flex-start;
 }
 .description_image {
-    width: 40%;
+    max-width: 40%;
   margin-right:5%;
-}
-.description_top {
-    width: 60%;
-
 }
 
 .caption.position-right {
