@@ -6,8 +6,8 @@
         "block-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skinny.jpg",
-            "image_logo": "shopify:\/\/shop_images\/White_SFT2_Logo_Final_c93b05e1-10c2-4e42-b8c7-b51c6d065e06.png",
+            "image": "shopify:\/\/shop_images\/braground_e0aaad1c-ea4c-496e-b0ea-100938a85679.jpg",
+            "image_logo": "shopify:\/\/shop_images\/test3.png",
             "pretext": "<p> <\/p>",
             "title": "",
             "subtitle": "",
@@ -36,15 +36,6 @@
         "mobile_text_color": "",
         "css_class": "",
         "custom_css": ".promo-banner__close {\n    visibility: hidden;\n}"
-      }
-    },
-    "68c46707-3fb2-447c-9740-6d11a851902f": {
-      "type": "divider",
-      "settings": {
-        "divider_spacing": 30,
-        "divider_border": false,
-        "css_class": "",
-        "custom_css": ""
       }
     },
     "featured-collection-1": {
@@ -151,7 +142,6 @@
   },
   "order": [
     "slideshow-1",
-    "68c46707-3fb2-447c-9740-6d11a851902f",
     "featured-collection-1",
     "5cf1412f-a157-4e94-bb3c-a71943df4e93",
     "0578f928-d290-45ea-be05-b5318de17bdf",
