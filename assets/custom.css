@@ -86,11 +86,11 @@ border-radius: 50px 0px 0px 50px;
     max-width: 40%;
   margin-right:5%;
 }
-.description_top {
-    margin-top:2%;
-
+@media(max-width:590px){
+.product-tabs__panel {
+    padding-top: 1.35rem;
 }
-
+}
 .caption.position-right {
 
     z-index: 9999;
