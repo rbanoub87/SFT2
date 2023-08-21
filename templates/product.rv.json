@@ -1,1 +1,31 @@
-{"layout":false,"sections":{"recently-viewed":{"type":"product-recently-viewed-template","settings":{}},"recommendations":{"type":"product-recommendations","settings":{}}},"order":["recently-viewed","recommendations"]}
+{
+  "layout": false,
+  "sections": {
+    "zp-product-header-content": {
+      "type": "product-header-content-zipifypages",
+      "settings": {
+      }
+    },
+    "recently-viewed": {
+      "type": "product-recently-viewed-template",
+      "settings": {
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+      }
+    },
+    "zp-product-footer-content": {
+      "type": "product-footer-content-zipifypages",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "zp-product-header-content",
+    "recently-viewed",
+    "recommendations",
+    "zp-product-footer-content"
+  ]
+}
