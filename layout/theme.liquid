@@ -313,6 +313,8 @@
     {% endif %}
   
 	{{ shop.metafields.loox["global_html_body"] }}
+{% render 'oneclickupsellapp-theme', oneclickupsellapp: oneclickupsellapp %}
+{% assign oneclickupsellapp = true %}
 </body>
 </html>
 {% endcapture %}
