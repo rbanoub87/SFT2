@@ -145,6 +145,11 @@ font-weight:600;
 .promo-banner__close {
     visibility: hidden !important;
 }
+@media(max-width:590px){
 .description_top_section {
     flex-direction: column !important;
+}
+  .description_image {
+    max-width: 100%;
+}
 }
