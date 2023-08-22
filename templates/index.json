@@ -41,7 +41,7 @@
     "featured-collection-1": {
       "type": "featured-collection",
       "settings": {
-        "title": "New Products!",
+        "title": "New Products",
         "collection_description": false,
         "collection": "new-products",
         "collection_style": "slider",
