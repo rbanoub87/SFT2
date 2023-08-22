@@ -86,6 +86,7 @@ border-radius: 50px 0px 0px 50px;
     max-width: 40%;
   margin-right:5%;
 }
+
 @media(max-width:590px){
 .product-tabs__panel {
     padding-top: 1.35rem;
@@ -143,4 +144,7 @@ font-weight:600;
 }
 .promo-banner__close {
     visibility: hidden !important;
+}
+.description_top_section {
+    flex-direction: column !important;
 }
