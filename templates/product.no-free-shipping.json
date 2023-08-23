@@ -29,6 +29,7 @@
             "textColor": "",
             "starColor": "",
             "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
             "emptyRatingWidget": false
           }
         },
@@ -88,6 +89,14 @@
         "divider_border": false,
         "css_class": "",
         "custom_css": ""
+      }
+    },
+    "67ee9f89-dd43-4ae5-a4c8-74adad05c2e4": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% assign video_url = product.metafields.custom.video_url %}\n{% if video_url != blank %}\n<div class=\"V_container\">\n  <iframe width=\"560\" height=\"315\" src=\"{{video_url}}\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" class=\"video\" allowfullscreen><\/iframe>\n<\/div>\n{%endif %}",
+        "css_class": "",
+        "custom_css": ".V_container {\n    position: relative;\n    width: 100%;\n    height: 0;\n    padding-bottom: 56.25%;\n}\n.video {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n}"
       }
     },
     "0ab648f2-9662-48fd-ab5e-78064f04a0a9": {
@@ -172,6 +181,7 @@
     "sidebar",
     "main",
     "73a21db1-56d1-4b86-acd2-5fb2c05de7e2",
+    "67ee9f89-dd43-4ae5-a4c8-74adad05c2e4",
     "0ab648f2-9662-48fd-ab5e-78064f04a0a9",
     "recommendations",
     "loox-product-reviews-app-section",
