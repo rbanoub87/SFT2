@@ -152,4 +152,7 @@ font-weight:600;
   .description_image {
     max-width: 100%;
 }
+  .product-tabs{
+    padding:5% !important;
+  }
 }
