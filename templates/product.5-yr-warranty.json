@@ -50,10 +50,10 @@
           "settings": {
             "icon_one": "shopify:\/\/shop_images\/test.png",
             "icon_one_title": "5 YEAR WARRANTY",
-            "icon_two": "shopify:\/\/shop_images\/returns_2x_19636b64-524b-466f-8bd2-5f68cea8ba88.png",
-            "icon_two_title": "EASY RETURNS",
-            "icon_three": "shopify:\/\/shop_images\/receiving_money_2_2x_ad9d427d-969b-43a1-8c2d-6b7eb5d3d165.png",
-            "icon_three_title": "MONEY BACK GUARANTEE"
+            "icon_two": "shopify:\/\/shop_images\/shipping_2x_8fbee2c7-1652-4bb5-b1fd-4bc67d3b2170.png",
+            "icon_two_title": "FREE SHIPPING",
+            "icon_three": "shopify:\/\/shop_images\/returns_2x_19636b64-524b-466f-8bd2-5f68cea8ba88.png",
+            "icon_three_title": "EASY RETURNS"
           }
         }
       },
