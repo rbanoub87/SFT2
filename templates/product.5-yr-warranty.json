@@ -106,7 +106,7 @@
         "630ee29c-c8a3-4ed6-acfd-853ed5ee9f5b": {
           "type": "tab",
           "settings": {
-            "tab_heading_value": "{{ product.metafields.custom.extra_description_title.value }} JEFFe",
+            "tab_heading_value": "{{ product.metafields.custom.extra_description_title.value }} (Click Here)",
             "tab_text_value": "",
             "tab_text_value_custom": "{%  assign productDescription = product.description | split: '<!-- split -->' %}\n<div class=\"description_top_section\">\n\n{% if product.metafields.custom.tab_1_image != blank %}\n<div class=\"description_image\">\n<img src=\"{{product.metafields.custom.tab_1_image | img_url: '500x'}}\" \/>\n<\/div>\n{% endif %}\n\n<div class=\"description_top\">\n{{ productDescription[2] }}\n<\/div>\n<\/div>"
           }
@@ -114,7 +114,7 @@
         "20636831-9670-45ac-ba3f-50f6ab6588f1": {
           "type": "tab",
           "settings": {
-            "tab_heading_value": "{{ product.metafields.custom.extra_description_title_2.value }} JEFF2",
+            "tab_heading_value": "{{ product.metafields.custom.extra_description_title_2.value }} (Click Here)",
             "tab_text_value": "",
             "tab_text_value_custom": "{%  assign productDescription = product.description | split: '<!-- split -->' %}\n<div class=\"description_top_section\">\n\n{% if product.metafields.custom.tab_2_image != blank %}\n<div class=\"description_image\">\n<img\nsrc=\"{{product.metafields.custom.tab_2_image | img_url: '500x'}}\" \/>\n<\/div>\n{% endif %}\n\n<div class=\"description_top\">\n{{ productDescription[3] }}\n<\/div>\n<\/div>"
           }
@@ -122,7 +122,7 @@
         "c8817804-f1b3-4560-9102-a0afb43043fa": {
           "type": "tab",
           "settings": {
-            "tab_heading_value": "{{ product.metafields.custom.extra_description_title_3.value }}",
+            "tab_heading_value": "{{ product.metafields.custom.extra_description_title_3.value }} (Click Here)",
             "tab_text_value": "",
             "tab_text_value_custom": "{%  assign productDescription = product.description | split: '<!-- split -->' %}\n<div class=\"description_top_section\">\n{% if product.metafields.custom.tab_3_image != blank %}\n<div class=\"description_image\">\n<img\nsrc=\"{{product.metafields.custom.tab_3_image | img_url: '500x'}}\" \/>\n<\/div>\n{% endif %}\n<div class=\"description_top\">\n{{ productDescription[4] }}\n<\/div>\n<\/div>"
           }
@@ -130,7 +130,7 @@
         "12998b04-860f-48a5-b746-11714d10d34d": {
           "type": "tab",
           "settings": {
-            "tab_heading_value": "{{ product.metafields.custom.extra_description_title_4.value }}",
+            "tab_heading_value": "{{ product.metafields.custom.extra_description_title_4.value }} (Click Here)",
             "tab_text_value": "",
             "tab_text_value_custom": "{%  assign productDescription = product.description | split: '<!-- split -->' %}\n<div class=\"description_top_section\">\n\n{% if product.metafields.custom.tab_4_image != blank %}\n<div class=\"description_image\">\n<img\nsrc=\"{{product.metafields.custom.tab_4_image | img_url: '500x'}}\" \/>\n<\/div>\n{% endif %}\n\n<div class=\"description_top\">\n{{ productDescription[5] }}\n<\/div>\n<\/div>"
           }
@@ -138,7 +138,7 @@
         "e6be0fe2-073a-4607-be64-3a74f0d2f63b": {
           "type": "tab",
           "settings": {
-            "tab_heading_value": "{{ product.metafields.custom.extra_description_title_5.value }}",
+            "tab_heading_value": "{{ product.metafields.custom.extra_description_title_5.value }} (Click Here)",
             "tab_text_value": "",
             "tab_text_value_custom": "{%  assign productDescription = product.description | split: '<!-- split -->' %}\n<div class=\"description_top_section\">\n\n{% if product.metafields.custom.tab_5_image != blank %}\n<div class=\"description_image\">\n<img\nsrc=\"{{product.metafields.custom.tab_5_image | img_url: '500x'}}\" \/>\n<\/div>\n{% endif %}\n\n<div class=\"description_top\">\n{{ productDescription[6] }}\n<\/div>\n<\/div>"
           }
