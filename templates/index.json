@@ -41,7 +41,7 @@
     "featured-collection-1": {
       "type": "featured-collection",
       "settings": {
-        "title": "THE REVOLUTION SERIES",
+        "title": "REVOLUTION SERIES",
         "collection_description": false,
         "collection": "sft2-revolution-series",
         "collection_style": "slider",
